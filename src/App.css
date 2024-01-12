@@ -1,0 +1,105 @@
+
+.all {
+  background-color: rgb(209, 209, 201);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  
+}
+.Wrapper {
+  padding-top: 40px;
+  background-color: #747676;
+  padding-bottom: 40px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.navList {
+  display: flex;
+list-style-type: none;
+justify-content: right;
+padding-right: 100px;
+}
+
+.list {
+ 
+  padding-left: 20px;
+
+}
+
+.suppose {
+  display: flex;
+justify-content: center;
+padding-bottom: 40px;
+}
+
+
+.App {
+  text-align: left;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+border-radius: 10px;
+box-shadow: 10px 10px 10px lightblue;
+background-color: rgb(182, 200, 200);
+}
+.inputMision {
+  width: 250px;
+  height: 100px;
+}
+.listStyle {
+  list-style-type: none;
+}
+.choose {
+display: flex;
+}
+.inputANDbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+
+.treeOption {
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
