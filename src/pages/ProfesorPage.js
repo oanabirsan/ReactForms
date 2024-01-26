@@ -6,7 +6,6 @@ import '../App.css';
 export function ProfesorPage() {
   return (
     <div className='Wrapper'>
-      <div className="suppose"><h1>Create your form!!! </h1></div>
       <div className="App">
         <h1>Our mision:</h1>
         <form>
